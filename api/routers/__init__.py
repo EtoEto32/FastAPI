@@ -1,0 +1,26 @@
+"""
+ルーター定義のための初期化ファイル
+""" 
+from fastapi import APIRouter
+
+router=APIRouter()
+
+@router.get("/tasks")
+async def get_items("/tasks"):
+    async def list_tasks():
+        pass
+
+@router.post("/tasks")
+async def get_items("/tasks"):
+    async def create_tasks():
+        pass
+
+@router.put("/tasks/{task_id}")
+async def get_items("/tasks"):
+    async def update_tasks():
+        pass
+
+@router.delete("/tasks/{task_id}")
+async def get_items("/tasks"):
+    async def delete_tasks():
+        pass

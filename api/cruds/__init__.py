@@ -1,0 +1,3 @@
+from fastapi import HTTPException
+
+# 将来的にCRUD操作の共通ユーティリティやベース関数をここに定義できます
